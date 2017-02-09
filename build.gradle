@@ -19,6 +19,7 @@ allprojects {
     }
 
     apply plugin: 'idea'
+    apply plugin: 'eclipse'
     apply plugin: 'io.spring.dependency-management'
     apply plugin: 'provided-base'
     apply plugin: 'optional-base'
@@ -59,6 +60,7 @@ subprojects {
 
     dependencies {
         provided "org.projectlombok:lombok"
+        compile("org.springframework.boot:spring-boot-starter-web:1.5.1.RELEASE")
 
         testCompile "org.springframework.boot:spring-boot-starter-test"
     }

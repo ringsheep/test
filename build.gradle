@@ -16,6 +16,7 @@ allprojects {
 
     repositories {
         jcenter()
+        maven {url 'http://mvn/artifactory/public'}
     }
 
     apply plugin: 'idea'
@@ -61,6 +62,7 @@ subprojects {
     dependencies {
         provided "org.projectlombok:lombok"
         compile("org.springframework.boot:spring-boot-starter-web:1.5.1.RELEASE")
+        compile "ru.alfabank.thrift:thrift-api:0.1.85"
 
         testCompile "org.springframework.boot:spring-boot-starter-test"
     }

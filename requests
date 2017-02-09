@@ -1,0 +1,64 @@
+# $url=http://a105301/signservice
+
+GET $url/sendSignCode/example
+
+GET $url/sendSignCode/toSelf
+Accept: application/json
+
+POST $url/sendSignCode
+Content-type: application/json
+Accept: application/json
+{
+  "acus": "XAJY9G",
+  "cus": "UAAARQ",
+  "documents": [
+    {
+      "docId": 332908,
+      "docType": "PaymentRub",
+      "operationType": "SendToBankPaymentRub",
+      "setDocId": true,
+      "setDocType": true,
+      "setOperationType": true
+    }
+  ],
+  "ip": "127.0.0.1",
+  "salt": null
+}
+
+POST $url/sendSignCode
+Content-type: application/json
+{
+  "acus": "XAJY9G",
+  "cus": "UAAARQ",
+  "documents": [
+    {
+      "docId": 332908,
+      "docType": "PaymentRub",
+      "operationType": "SendToBankPaymentRub",
+      "setDocId": true,
+      "setDocType": true,
+      "setOperationType": true
+    }
+  ],
+  "ip": "127.0.0.1",
+  "salt": null
+}
+
+GET $url/sign/example
+
+POST $url/sign
+Content-type: application/json
+{
+  "acus": "XAAAFS",
+  "code": "code",
+  "cus": "UAB3OH",
+  "groupId": 0,
+  "ip": "127.0.0.1",
+  "salt": "salt",
+  "setAcus": true,
+  "setCode": true,
+  "setCus": true,
+  "setGroupId": true,
+  "setIp": true,
+  "setSalt": true
+}

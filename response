@@ -1,0 +1,38 @@
+{
+  "acus": "XAJY9G",
+  "cus": "testcus",
+  "documents": [
+    {
+      "docId": 332908,
+      "docType": "PaymentRub",
+      "operationType": "SendToBankPaymentRub",
+      "setDocId": true,
+      "setDocType": true,
+      "setOperationType": true
+    }
+  ],
+  "documentsIterator": [
+    {
+      "docId": 332908,
+      "docType": "PaymentRub",
+      "operationType": "SendToBankPaymentRub",
+      "setDocId": true,
+      "setDocType": true,
+      "setOperationType": true
+    }
+  ],
+  "documentsSize": 1,
+  "ip": null,
+  "salt": null,
+  "setAcus": true,
+  "setCus": true,
+  "setDocuments": true,
+  "setIp": false,
+  "setSalt": false
+}
+
+// status code: 200
+// X-Application-Context: application
+// Content-Type: application/json;charset=UTF-8
+// Transfer-Encoding: chunked
+// Date: Thu, 09 Feb 2017 09:56:52 GMT

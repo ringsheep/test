@@ -1,0 +1,14 @@
+{
+  "groupId": 5,
+  "salt": "2406310736292021",
+  "setGroupId": true,
+  "setSalt": true,
+  "setStatus": true,
+  "status": "GENERATED"
+}
+
+// status code: 200
+// X-Application-Context: application
+// Content-Type: application/json;charset=UTF-8
+// Transfer-Encoding: chunked
+// Date: Thu, 09 Feb 2017 10:06:39 GMT
